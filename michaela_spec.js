@@ -1,7 +1,7 @@
 describe('My First Test', () => {
   it('Visits Google Translate', () => {
     cy.visit ('https://translate.google.com')
-/*    cy.get ('.sl-more.tlid-open-source-language-list').click()
+   cy.get ('.sl-more.tlid-open-source-language-list').click()
     cy.contains ('Hungarian').click()
 
     cy.contains ('Detect language').click()
@@ -11,7 +11,7 @@ describe('My First Test', () => {
     //cy.contains ('German - detected')
     cy.get ('.orig.tlid-source-text-input.goog-textarea').focus().clear()
 	.type ('Prase')
-	.should ('have.value', 'Prase')*/
+	.should ('have.value', 'Prase')
 //cy.contains ('German - detected')
 cy.get ('.documents-icon').click()
 cy.get ('.tlid-select-file-button').click({force:true})
