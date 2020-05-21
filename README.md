@@ -3,10 +3,12 @@ Install Cypress
 ⦁	extract the zip file to your local drive - folder Cypress is created
 
 Checkout the test script
-⦁	access https://github.com/MichaelaRytirova/michaela and download michaela_spec.js - save it in <your_Cypress_folder_location>\cypress\integration folder
+⦁	access https://github.com/MichaelaRytirova/michaela and download michaela_spec.js - save it in <your_Cypress_folder>\cypress\integration folder
+
 Start Cypress
-⦁	Start <your_Cypress_folder_location>\Cypress.exe
-⦁	Select project manually <your_Cypress_folder_location>
+⦁	Start <your_Cypress_folder>\Cypress.exe
+⦁	Select project manually <your_Cypress_folder>
+
 Execute the text
 ⦁	In Cypress interface locate Tests tab
 ⦁	Locate the michaela_spec.js script at the very bottom
