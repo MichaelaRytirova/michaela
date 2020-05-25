@@ -5,6 +5,10 @@ Install Cypress
 Checkout the test script
 ⦁	access https://github.com/MichaelaRytirova/michaela and download michaela_spec.js - save it in <your_Cypress_folder>\cypress\integration folder
 
+Set up the framework
+⦁	access https://github.com/MichaelaRytirova/michaela and download cypress.json - save it in <your_Cypress_folder> folder (replace the current file)
+⦁	access https://github.com/MichaelaRytirova/michaela and download commands.js - save it in <your_Cypress_folder>\cypress\support folder (replace the current file)
+
 Start Cypress
 ⦁	Start <your_Cypress_folder>\Cypress.exe
 ⦁	Select project manually <your_Cypress_folder>
